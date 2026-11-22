@@ -9,7 +9,7 @@ import negocio.Inventario;
 public class Main {
  
     public static void main(String[] args) {
-        Locale.setDefault(Locale.U;
+        Locale.setDefault(Locale.US);
         Inventario inventario = new Inventario(LocalDate.now());
         DatosIniciales.cargar(inventario);
         MenuConsola menu = new MenuConsola(inventario);
